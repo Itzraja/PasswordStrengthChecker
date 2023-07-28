@@ -1,0 +1,23 @@
+{
+  "name": "my-node-express-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with Express and Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
